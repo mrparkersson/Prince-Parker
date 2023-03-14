@@ -16,15 +16,13 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  cocobod,
   sovtech,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  platinum,
   tripguide,
   threejs,
   rayca,
+  precision,
 } from '../assets';
 
 export const navLinks = [
@@ -124,7 +122,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'September 2022 - Present',
     points: [
-      'Developing and maintaining both mobile and web applications using Node.js and other related technologies.',
+      'Developing and maintaining both mobile and web applications using Node.js, Flutter and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
@@ -144,29 +142,15 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Cartographer',
+    company_name: 'Cocobod CHED',
+    icon: cocobod,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Sep 2020 - Sep 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Collecting, measure, and interpret geographic information in order to create and update maps and charts for regional planning, and other purposes',
+      'Advanced type research by compiling data, updating Software spreadsheets and producing timely reports',
+      'Participating in questionnaire for farmers to get feedback and how the Cocobod should improve its assistance to farmers.',
     ],
   },
 ];
@@ -200,46 +184,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Platinum Mobile',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Mobile-based platform that allows companies to track employees’ work hours, location, leave and so much more, where employees do not have access to the office clocking terminal, are on site or out in the field visiting clients.',
     tags: [
       {
-        name: 'react',
+        name: 'flutter',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'dart',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: platinum,
+    source_code_link: 'https://github.com/mrparkersson',
   },
   {
-    name: 'Job IT',
+    name: 'Rayca Precision',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application where Oncologist track their patients records so that their medication data and attendance tally',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'node.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'mongodB',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: precision,
+    source_code_link: 'https://github.com/mrparkersson',
   },
   {
     name: 'Trip Guide',
@@ -260,7 +244,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/mrparkersson',
   },
 ];
 

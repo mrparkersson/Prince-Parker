@@ -40,7 +40,7 @@ const About = () => {
       >
         As a Full Stack Developer, I am proficient in both front-end and
         back-end development, as well as database management. I have expertise
-        in NodeJS, HTML, CSS, JavaScript, TypeScript, PHP, Python, and SQL,
+        in Node.js, HTML, CSS, JavaScript, TypeScript, PHP, Python, and SQL,
         among others. I am well-versed in developing scalable and robust web
         applications from scratch, integrating APIs, and designing user-friendly
         interfaces. I have experience in using various web development

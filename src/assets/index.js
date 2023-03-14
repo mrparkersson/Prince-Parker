@@ -32,6 +32,9 @@ import tripguide from './tripguide.png';
 import parker from './parker.svg';
 import sovtech from './company/sovtech.webp';
 import rayca from './company/rayca.png';
+import cocobod from './company/cocobod.webp';
+import platinum from './platinum.jpeg';
+import precision from './precision.jpeg';
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   parker,
   sovtech,
   rayca,
+  platinum,
+  precision,
+  cocobod,
 };
