@@ -23,6 +23,7 @@ import {
   threejs,
   rayca,
   precision,
+  cartography,
 } from '../assets';
 
 export const navLinks = [
@@ -142,13 +143,13 @@ const experiences = [
     ],
   },
   {
-    title: 'Cartographer',
+    title: 'Cartographer Intern',
     company_name: 'Cocobod CHED',
     icon: cocobod,
     iconBg: '#E6DEDD',
     date: 'Sep 2020 - Sep 2021',
     points: [
-      'Collecting, measure, and interpret geographic information in order to create and update maps and charts for regional planning, and other purposes',
+      'Collecting, measure, and interpret geographic information in order to create and update maps and charts for regional planning, and other purposes using ArcGIS',
       'Advanced type research by compiling data, updating Software spreadsheets and producing timely reports',
       'Participating in questionnaire for farmers to get feedback and how the Cocobod should improve its assistance to farmers.',
     ],
@@ -226,24 +227,24 @@ const projects = [
     source_code_link: 'https://github.com/mrparkersson',
   },
   {
-    name: 'Trip Guide',
+    name: 'Cartographer',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Collecting, measure, and interpret geographic information in order to create and update maps and charts for regional planning, and other purposes using ArcGIS',
     tags: [
       {
-        name: 'nextjs',
+        name: 'compass',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'theodolite',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'arcgis',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: cartography,
     source_code_link: 'https://github.com/mrparkersson',
   },
 ];

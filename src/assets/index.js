@@ -35,6 +35,7 @@ import rayca from './company/rayca.png';
 import cocobod from './company/cocobod.webp';
 import platinum from './platinum.jpeg';
 import precision from './precision.jpeg';
+import cartography from './cartography.webp';
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   platinum,
   precision,
   cocobod,
+  cartography,
 };
